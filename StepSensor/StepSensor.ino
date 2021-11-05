@@ -14,7 +14,7 @@ void setup()
 {
   Serial.begin(115200);
  // AT.begin(115200);
-  BT.begin("TW");
+  BT.begin("Sensor_Go");
   BT.println("Welcome !!!!");
   Serial.println();
   Serial.println("BNO080 Read Example");
@@ -31,22 +31,7 @@ void setup()
   Serial.println(F("Output in form x, y, z, in uTesla"));
 }
 
-//void serialEvent() {
-//  while (BT.available()){
-//    //char inChar = (char)BT.read();
-//    // Serial.println(inChar);
-//    //if ((inChar == '1')){ //ENTER PROBLEM     
-//      //receiveComplete = (receivedCommand.length() > 0);      
-//      //receiveComplete = true;
-//      
-//      //Serial.println(receiveComplete);
-//      BT.println("Success");
-//     // break;
-//    //} else {
-//      //receivedCommand += inChar;
-//   // }
-//  }
-//}
+
 
 void loop()
 {
@@ -57,49 +42,23 @@ void loop()
     float x = myIMU.getMagX();
     float y = myIMU.getMagY();
     float z = myIMU.getMagZ();
-   // byte accuracy = myIMU.getMagAccuracy();
    //serial mag data
-    //Serial.print("Mag:  ");
     Serial.print(x,2);
-    //Serial.print(F(","));
     Serial.print(" ");
     Serial.print(y, 2);
     Serial.print(" ");
-   // BT.print(y,2);
-   // Serial.print(F(","));
     Serial.print(z, 2);
     Serial.print(" ");
-   // Serial.print("#");
-   // BT.print(z,2);
-    //Serial.print(F(","));
-  //  printAccuracyLevel(accuracy);
-   //Serial.print(F(","));
-    //Serial.println("");
-   // BT.println("Hello!!");
-    //BT Mag data
-    //BT.println("Mag:  ");
+
     BT.print(x,2);
     BT.print(F(","));
-    //BT.print(" ");
     BT.print(y,2);
     BT.print(F(","));
-    //BT.print(" ");
     BT.print(z,2);
-   // BT.println();
     BT.print(F(","));
-    //BT.println("");
 
-    //AT computer connect bluetooth
-//    AT.println("Mag:  ");
-//    AT.println(x,2);
-//    AT.println(F(","));
-//    AT.println(y,2);
-//    AT.println(F(","));
-//    AT.println(z,2);
-//    AT.println(F(","));
-//    AT.println("");
-    
-    //delay(1000);
+
+
     //serial gyro data
     float xg = myIMU.getGyroX();
     float yg = myIMU.getGyroY();
@@ -128,12 +87,3 @@ void loop()
 //    delay(1000);
   }
 }
-
-//Given a accuracy number, print what it means
-//void printAccuracyLevel(byte accuracyNumber)
-//{
-//  if(accuracyNumber == 0) Serial.print(F("Unreliable"));
-//  else if(accuracyNumber == 1) Serial.print(F("Low"));
-//  else if(accuracyNumber == 2) Serial.print(F("Medium"));
-//  else if(accuracyNumber == 3) Serial.print(F("High"));
-//}
