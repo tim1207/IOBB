@@ -14,7 +14,7 @@ void setup()
 {
   Serial.begin(115200);
  // AT.begin(115200);
-  BT.begin("Sensor_Go");
+  BT.begin("foot");
   BT.println("Welcome !!!!");
   Serial.println();
   Serial.println("BNO080 Read Example");
