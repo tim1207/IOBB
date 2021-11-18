@@ -14,7 +14,7 @@ void setup()
 {
   Serial.begin(115200);
  // AT.begin(115200);
-  BT.begin("foot");
+  BT.begin("hand");
   BT.println("Welcome !!!!");
   Serial.println();
   Serial.println("BNO080 Read Example");
@@ -83,7 +83,25 @@ void loop()
     BT.print(F(","));
     BT.print(zg,2);
     BT.print(F(","));
-    BT.println("");
+    
 //    delay(1000);
+    float xA = myIMU.getAccelX();
+    float yA = myIMU.getAccelY();
+    float zA = myIMU.getAccelZ();
+   //serial mag data
+    Serial.print(xA,2);
+    Serial.print(" ");
+    Serial.print(yA, 2);
+    Serial.print(" ");
+    Serial.print(zA, 2);
+    Serial.print(" ");
+
+    BT.print(xA,2);
+    BT.print(F(","));
+    BT.print(yA,2);
+    BT.print(F(","));
+    BT.print(zA,2);
+    BT.print(F(","));
+    BT.println("");
   }
 }
