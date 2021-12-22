@@ -24,7 +24,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println();
   Serial.println("BNO080 Read Example");
-  BT.begin("KWK");
+  BT.begin("Sensor");
 
   Wire.begin();
 
