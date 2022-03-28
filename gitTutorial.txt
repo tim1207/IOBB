@@ -1,8 +1,12 @@
-git clone https://github.com/tim1207/IOBB.git
-下載
-
-
+下載指令
+git clone
+確認狀態 
 git status 
+切換分支
+git checkout <branch>
+合併分支 請先確認所在的分支
+git merge origin/<branch>
+push 前要輸入的指令
 git add .
 git commit-m " "
-git push -u origin main 
+git push -u origin <branch> 
