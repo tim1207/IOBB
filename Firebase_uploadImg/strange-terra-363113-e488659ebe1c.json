@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "strange-terra-363113",
+  "private_key_id": "e488659ebe1cf8964d5c6e73528a612c7dc18a8b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCb9/rnun58AcA1\nNiZv4NruYAYW1UzlIjQCMCUcXzkmp1JfJzTitPwqwsbZSZi1hLsZicdd1WfpL55F\nBTzN9oJhb6DO+DZneF3NrlP0bwH+k29I4bfFQfLYqaskKjd9jH54i1X8Usapp7jh\n1GOwgqJd6NKRer1h9M96h3NUUrJHRArjis+cbDhYPDQwP+hqTuZuHQa3rnsC8jG7\nDAjX/91PW9S6qLT1umyMhLgoCiiqJHGv6PN3w4FbaMLqi33Fkp6RCiCz6fkxcGYA\npgpwWcROcwk4QeSljpkH1jI09GvRSZotBAGHIiNrA4rEaeFll+/AFFvVLmn8soXp\nlULLjzgNAgMBAAECggEACKGSwD+lD8I+C4PNYTwZiX8FXz6bFIQNykA1UYpgfIfe\nalceWVxoJwqj2/LzcTog64MhJgtxBmnE8a9eQ8ycPv2hMcrxIc06ra7zxO9etiKd\nEjSxiYhCguRyzNvMOdWsSwn07nN7PHjEZbTt9l7oUteXTYc0E0drsu1rf7Na29At\nQHdOd21+Xzz0kID4aZTRLrNUFC8/CJ7aC9c2oOIFH8/xUQBXKABYh9LtQnHhi+cC\nBmJVdGuTCx4ytm0Xcu+/rg0aDzqY4SnzLGkoV0/nSYooU3oZk5tyxhEq+/UqJxZv\neSRaVRw1kfgFyhUSOLyOeAqThpLD5ssdX6SCLXycuQKBgQDR84SDvP7LZv5i9rlo\nQo1EMgP599Oh7R8X+WgJMRT3KCopCqt73fiBNmisduIu71fCGXm3sFIsKOn0Io8Q\nxANElg0LaStJUOsZ95hn6mK4PcOVS3R5k9z3U8y54n0AgLjuVNKZoIL0066pdznk\nY2FB8JPeTSONeJnL/EwF8J+oxQKBgQC+LWnGe5pnQuwgkSN5N22U7Y1Ewk1uEVUy\nlt1MrEEIJwNJQiUy/4vP+NmZohNz+7xDEX6deH1RRB/8kMQNtlF940lzOCtmgGBJ\nKzYiQH2UBN2yUGfFDWvvjyjcGueAwVaynYe3qpW+9qb4w5+9oqww75kVxrPrCPmI\naO1GqsZ2qQKBgQDOjjOYXG+c8/ZgrPYaUiejqUVqP10yGRUXRCQLrwM+aoCYIkw2\nMFsV3M68prW+kXEYoHG0u78MfTA3JWz1hLLmXm31BQI2PmsfAA4sZle7heCPWE3+\ncu/ZUNPBKcfrn7jRmhgcVuOgNUbIqWkGfpOoCSWhduj8fWNqYgz1ZxfdNQKBgHmE\nYxYkXKCmrmKQ2u3VcPu8XowU64ztHldY9sbLOjKPWxYwYbyYdSnKhKAaY/u0WrMw\nNotANjL7KMUla2CnoqKh3Ij21ySD2wJlzg1Mz/EIuu/5WJUc4l8MRrt9pXcsEs3G\nwrWlFlITINXLigKOMyCBuHuln8kKzwdOpG6HKJEhAoGBAL0eua2QhKTQAJ2cHdIs\njd8H1XygRkuJPtms7cgo+oWraELmByHJMBpvxdOl3YeO8X7e2y7qjTTcwnl+G5aR\naUbcQF+FnrpsHKwGW+M/Wpogf0gIAFlxiF4Qg7a1Maqgq8l7qvSU1VfSlIR/O8Qw\nVyma3pi9xCXPlkjJsWwFTdG0\n-----END PRIVATE KEY-----\n",
+  "client_email": "twp-414@strange-terra-363113.iam.gserviceaccount.com",
+  "client_id": "107398123748548703223",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/twp-414%40strange-terra-363113.iam.gserviceaccount.com"
+}
