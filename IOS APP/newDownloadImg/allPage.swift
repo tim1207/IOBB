@@ -36,7 +36,7 @@ struct allPage: View {
                 .padding(.top,70)
             List{
                 ForEach(fileName, id: \.self) { item in
-                    Text("image/"+item)
+                    Text(item)
                 }
             }.listStyle(.plain)
 
