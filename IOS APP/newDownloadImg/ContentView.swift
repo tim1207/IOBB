@@ -19,7 +19,7 @@ struct ContentView: View {
             allPage()
                 .tabItem{
                     Label("所有檔案名稱", systemImage: "list.bullet")
-                }
+                }        
         }
     }
   }

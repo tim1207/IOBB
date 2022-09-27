@@ -11,10 +11,15 @@ import SDWebImageSwiftUI
 
 struct allPage: View {
     @State private var fileName: [String] = []
+    @State private var inputDate = Date()
     
     func listFileName(){
         let stg = Storage.storage().reference()
-        let path = "image/"
+        var path = "image/"
+        
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MM-dd"
+        path = path + formatter.string(from: inputDate)+"/"
 
         stg.child(path).listAll { (list, error) in
             if let error = error {
@@ -28,17 +33,29 @@ struct allPage: View {
         }
     }
     
+    
     var body: some View {
         VStack{
             Text("所有檔案")
                 .font(.system(.title))
                 .bold()
                 .padding(.top,70)
+            
+            DatePicker(selection: $inputDate, in: ...Date(), displayedComponents: .date) {
+                Text("Select a date")
+            }
+            .frame(width: 300, height: 2)
+            .padding(15)
+            .onChange(of: inputDate, perform: { value in
+                 listFileName()
+            })            
+            
             List{
                 ForEach(fileName, id: \.self) { item in
                     Text(item)
                 }
             }.listStyle(.plain)
+                .frame(width: 350,height: 500)
 
 
         }.onAppear(perform: listFileName)

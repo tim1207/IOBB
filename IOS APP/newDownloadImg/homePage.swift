@@ -13,18 +13,23 @@ struct homePage: View {
     @State private var imageURL = URL(string: "https://firebasestorage.googleapis.com/v0/b/iobb-43250.appspot.com/o/image%2F%E6%88%AA%E5%9C%96%202022-09-21%20%E4%B8%8B%E5%8D%8810.00.18.png?alt=media&token=ad4d7aa4-e451-448f-9ce1-2cb35343f832")
     @State private var name: String = ""
     @State private var nowPhoto: String = ""
+    @State private var inputDate = Date()
     
     
     func loadImageFromFirebase(name: String) {
-         let storage = Storage.storage().reference(withPath: "image/"+name)
+         let formatter = DateFormatter()
+         formatter.dateFormat = "MM-dd"
+        let storage = Storage.storage().reference(withPath: "image/"+formatter.string(from: inputDate)+"/"+name+".png")
          storage.downloadURL { (url, error) in
              if error != nil {
                  print((error?.localizedDescription)!)
+                 nowPhoto = "No search photo"
                  return
          }
          print("Download success")
              imageURL = url!
              nowPhoto = name
+             print(imageURL!)
              
      }
     }
@@ -41,7 +46,13 @@ struct homePage: View {
                 .frame(width: 300, height: 2)
                 .overlay(.black)
                 .padding(15)
-
+            
+            DatePicker(selection: $inputDate, in: ...Date(), displayedComponents: .date) {
+                Text("Select a date")
+            }
+            .frame(width: 300, height: 2)
+            .padding(15)
+            
             TextField(
                 "Enter name",
                 text: $name
@@ -75,12 +86,14 @@ struct homePage: View {
                 Text("Now photo name is")
                     .font(.system(size: 20))
                     .padding(15)
-//                Text("\(nowPhoto)")
-//                    .padding(.bottom,15)
+
                 Link("\(nowPhoto)", destination: imageURL!)
-                    .font(.system(size: 20))
-                    .frame(width: 300, height: 10)
+                    .font(.system(size: 30))
+                    .frame(width: 250, height: 10)
                     .padding()
+//                WebImage(url: imageURL!)
+//                    .resizable()
+                    
                     
             }.padding(20)
 
