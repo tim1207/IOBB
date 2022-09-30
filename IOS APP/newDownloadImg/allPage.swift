@@ -12,6 +12,14 @@ import SDWebImageSwiftUI
 struct allPage: View {
     @State private var fileName: [String] = []
     @State private var inputDate = Date()
+    let dateRange: ClosedRange<Date> = {
+        let calendar = Calendar.current
+        let startComponents = DateComponents(year: 2022, month: 9, day: 26)
+        let endComponents = DateComponents(year: 2024, month: 12, day: 31, hour: 23, minute: 59, second: 59)
+        return calendar.date(from:startComponents)!
+            ...
+            calendar.date(from:endComponents)!
+    }()
     
     func listFileName(){
         let stg = Storage.storage().reference()
@@ -41,7 +49,7 @@ struct allPage: View {
                 .bold()
                 .padding(.top,70)
             
-            DatePicker(selection: $inputDate, in: ...Date(), displayedComponents: .date) {
+            DatePicker(selection: $inputDate, in: dateRange, displayedComponents: .date) {
                 Text("Select a date")
             }
             .frame(width: 300, height: 2)
