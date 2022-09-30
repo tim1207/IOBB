@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		595FB6E5EC72BEA059753EAC /* Pods_Bear_In_MindTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E185CE477809F43A5D2A2D /* Pods_Bear_In_MindTests.framework */; };
+		A8ACF43528E6BFB6007B7807 /* Bear_In_MindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF43428E6BFB6007B7807 /* Bear_In_MindApp.swift */; };
+		A8ACF43728E6BFB6007B7807 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF43628E6BFB6007B7807 /* ContentView.swift */; };
+		A8ACF43928E6BFB9007B7807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8ACF43828E6BFB9007B7807 /* Assets.xcassets */; };
+		A8ACF43C28E6BFB9007B7807 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8ACF43B28E6BFB9007B7807 /* Preview Assets.xcassets */; };
+		A8ACF44628E6BFB9007B7807 /* Bear_In_MindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF44528E6BFB9007B7807 /* Bear_In_MindTests.swift */; };
+		A8ACF45028E6BFB9007B7807 /* Bear_In_MindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF44F28E6BFB9007B7807 /* Bear_In_MindUITests.swift */; };
+		A8ACF45228E6BFB9007B7807 /* Bear_In_MindUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF45128E6BFB9007B7807 /* Bear_In_MindUITestsLaunchTests.swift */; };
+		A8ACF45F28E6C1B4007B7807 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8ACF45E28E6C1B3007B7807 /* GoogleService-Info.plist */; };
+		A8ACF46128E6C230007B7807 /* allPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF46028E6C230007B7807 /* allPage.swift */; };
+		A8ACF46328E6C242007B7807 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF46228E6C242007B7807 /* homePage.swift */; };
+		B505B9667739E00A863087A4 /* Pods_Bear_In_Mind_Bear_In_MindUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB868A5A182D6ADE794575 /* Pods_Bear_In_Mind_Bear_In_MindUITests.framework */; };
+		F4DDE628086E81D2A757FE0F /* Pods_Bear_In_Mind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7C9ED37ADE3DCCD877A3C3 /* Pods_Bear_In_Mind.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8ACF44228E6BFB9007B7807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8ACF42928E6BFB6007B7807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8ACF43028E6BFB6007B7807;
+			remoteInfo = "Bear In Mind";
+		};
+		A8ACF44C28E6BFB9007B7807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8ACF42928E6BFB6007B7807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8ACF43028E6BFB6007B7807;
+			remoteInfo = "Bear In Mind";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D7C9ED37ADE3DCCD877A3C3 /* Pods_Bear_In_Mind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_In_Mind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DEB33FC1ABBB6298907B54 /* Pods-Bear In Mind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear In Mind.release.xcconfig"; path = "Target Support Files/Pods-Bear In Mind/Pods-Bear In Mind.release.xcconfig"; sourceTree = "<group>"; };
+		175725E1347C7B8BCE9C0CFD /* Pods-Bear In MindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear In MindTests.release.xcconfig"; path = "Target Support Files/Pods-Bear In MindTests/Pods-Bear In MindTests.release.xcconfig"; sourceTree = "<group>"; };
+		2466B33A158C9F9F89C3BAB6 /* Pods-Bear In Mind-Bear In MindUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear In Mind-Bear In MindUITests.release.xcconfig"; path = "Target Support Files/Pods-Bear In Mind-Bear In MindUITests/Pods-Bear In Mind-Bear In MindUITests.release.xcconfig"; sourceTree = "<group>"; };
+		27E185CE477809F43A5D2A2D /* Pods_Bear_In_MindTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_In_MindTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDE1C1449D781DE9846E18F /* Pods-Bear In Mind-Bear In MindUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear In Mind-Bear In MindUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bear In Mind-Bear In MindUITests/Pods-Bear In Mind-Bear In MindUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		617F82A78EC67971D2331306 /* Pods-Bear In MindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear In MindTests.debug.xcconfig"; path = "Target Support Files/Pods-Bear In MindTests/Pods-Bear In MindTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83C9D1EE43209EEA34411623 /* Pods-Bear In Mind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear In Mind.debug.xcconfig"; path = "Target Support Files/Pods-Bear In Mind/Pods-Bear In Mind.debug.xcconfig"; sourceTree = "<group>"; };
+		A8ACF43128E6BFB6007B7807 /* Bear In Mind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bear In Mind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8ACF43428E6BFB6007B7807 /* Bear_In_MindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_In_MindApp.swift; sourceTree = "<group>"; };
+		A8ACF43628E6BFB6007B7807 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8ACF43828E6BFB9007B7807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8ACF43B28E6BFB9007B7807 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8ACF44128E6BFB9007B7807 /* Bear In MindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bear In MindTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8ACF44528E6BFB9007B7807 /* Bear_In_MindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_In_MindTests.swift; sourceTree = "<group>"; };
+		A8ACF44B28E6BFB9007B7807 /* Bear In MindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bear In MindUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8ACF44F28E6BFB9007B7807 /* Bear_In_MindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_In_MindUITests.swift; sourceTree = "<group>"; };
+		A8ACF45128E6BFB9007B7807 /* Bear_In_MindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_In_MindUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8ACF45E28E6C1B3007B7807 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8ACF46028E6C230007B7807 /* allPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allPage.swift; sourceTree = "<group>"; };
+		A8ACF46228E6C242007B7807 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
+		CEAB868A5A182D6ADE794575 /* Pods_Bear_In_Mind_Bear_In_MindUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_In_Mind_Bear_In_MindUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8ACF42E28E6BFB6007B7807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DDE628086E81D2A757FE0F /* Pods_Bear_In_Mind.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8ACF43E28E6BFB9007B7807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595FB6E5EC72BEA059753EAC /* Pods_Bear_In_MindTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8ACF44828E6BFB9007B7807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B505B9667739E00A863087A4 /* Pods_Bear_In_Mind_Bear_In_MindUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35313A815D4D162938BC17F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83C9D1EE43209EEA34411623 /* Pods-Bear In Mind.debug.xcconfig */,
+				16DEB33FC1ABBB6298907B54 /* Pods-Bear In Mind.release.xcconfig */,
+				2CDE1C1449D781DE9846E18F /* Pods-Bear In Mind-Bear In MindUITests.debug.xcconfig */,
+				2466B33A158C9F9F89C3BAB6 /* Pods-Bear In Mind-Bear In MindUITests.release.xcconfig */,
+				617F82A78EC67971D2331306 /* Pods-Bear In MindTests.debug.xcconfig */,
+				175725E1347C7B8BCE9C0CFD /* Pods-Bear In MindTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8ACF42828E6BFB6007B7807 = {
+			isa = PBXGroup;
+			children = (
+				A8ACF43328E6BFB6007B7807 /* Bear In Mind */,
+				A8ACF44428E6BFB9007B7807 /* Bear In MindTests */,
+				A8ACF44E28E6BFB9007B7807 /* Bear In MindUITests */,
+				A8ACF43228E6BFB6007B7807 /* Products */,
+				35313A815D4D162938BC17F7 /* Pods */,
+				FC1F251AB9A2BD9CE1895924 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8ACF43228E6BFB6007B7807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8ACF43128E6BFB6007B7807 /* Bear In Mind.app */,
+				A8ACF44128E6BFB9007B7807 /* Bear In MindTests.xctest */,
+				A8ACF44B28E6BFB9007B7807 /* Bear In MindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8ACF43328E6BFB6007B7807 /* Bear In Mind */ = {
+			isa = PBXGroup;
+			children = (
+				A8ACF43428E6BFB6007B7807 /* Bear_In_MindApp.swift */,
+				A8ACF46028E6C230007B7807 /* allPage.swift */,
+				A8ACF46228E6C242007B7807 /* homePage.swift */,
+				A8ACF43628E6BFB6007B7807 /* ContentView.swift */,
+				A8ACF43828E6BFB9007B7807 /* Assets.xcassets */,
+				A8ACF45E28E6C1B3007B7807 /* GoogleService-Info.plist */,
+				A8ACF43A28E6BFB9007B7807 /* Preview Content */,
+			);
+			path = "Bear In Mind";
+			sourceTree = "<group>";
+		};
+		A8ACF43A28E6BFB9007B7807 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A8ACF43B28E6BFB9007B7807 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8ACF44428E6BFB9007B7807 /* Bear In MindTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8ACF44528E6BFB9007B7807 /* Bear_In_MindTests.swift */,
+			);
+			path = "Bear In MindTests";
+			sourceTree = "<group>";
+		};
+		A8ACF44E28E6BFB9007B7807 /* Bear In MindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8ACF44F28E6BFB9007B7807 /* Bear_In_MindUITests.swift */,
+				A8ACF45128E6BFB9007B7807 /* Bear_In_MindUITestsLaunchTests.swift */,
+			);
+			path = "Bear In MindUITests";
+			sourceTree = "<group>";
+		};
+		FC1F251AB9A2BD9CE1895924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D7C9ED37ADE3DCCD877A3C3 /* Pods_Bear_In_Mind.framework */,
+				CEAB868A5A182D6ADE794575 /* Pods_Bear_In_Mind_Bear_In_MindUITests.framework */,
+				27E185CE477809F43A5D2A2D /* Pods_Bear_In_MindTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8ACF43028E6BFB6007B7807 /* Bear In Mind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8ACF45528E6BFB9007B7807 /* Build configuration list for PBXNativeTarget "Bear In Mind" */;
+			buildPhases = (
+				0EC2C545EC4B0EBA9675B69D /* [CP] Check Pods Manifest.lock */,
+				A8ACF42D28E6BFB6007B7807 /* Sources */,
+				A8ACF42E28E6BFB6007B7807 /* Frameworks */,
+				A8ACF42F28E6BFB6007B7807 /* Resources */,
+				22426047871CE568A4D4C641 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bear In Mind";
+			productName = "Bear In Mind";
+			productReference = A8ACF43128E6BFB6007B7807 /* Bear In Mind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8ACF44028E6BFB9007B7807 /* Bear In MindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8ACF45828E6BFB9007B7807 /* Build configuration list for PBXNativeTarget "Bear In MindTests" */;
+			buildPhases = (
+				75C791F21D3DDD5FAC3F641E /* [CP] Check Pods Manifest.lock */,
+				A8ACF43D28E6BFB9007B7807 /* Sources */,
+				A8ACF43E28E6BFB9007B7807 /* Frameworks */,
+				A8ACF43F28E6BFB9007B7807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8ACF44328E6BFB9007B7807 /* PBXTargetDependency */,
+			);
+			name = "Bear In MindTests";
+			productName = "Bear In MindTests";
+			productReference = A8ACF44128E6BFB9007B7807 /* Bear In MindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8ACF44A28E6BFB9007B7807 /* Bear In MindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8ACF45B28E6BFB9007B7807 /* Build configuration list for PBXNativeTarget "Bear In MindUITests" */;
+			buildPhases = (
+				A548E1ACEC27820A852BC8E9 /* [CP] Check Pods Manifest.lock */,
+				A8ACF44728E6BFB9007B7807 /* Sources */,
+				A8ACF44828E6BFB9007B7807 /* Frameworks */,
+				A8ACF44928E6BFB9007B7807 /* Resources */,
+				14177EC19039033C75AB3A7C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8ACF44D28E6BFB9007B7807 /* PBXTargetDependency */,
+			);
+			name = "Bear In MindUITests";
+			productName = "Bear In MindUITests";
+			productReference = A8ACF44B28E6BFB9007B7807 /* Bear In MindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8ACF42928E6BFB6007B7807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A8ACF43028E6BFB6007B7807 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					A8ACF44028E6BFB9007B7807 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = A8ACF43028E6BFB6007B7807;
+					};
+					A8ACF44A28E6BFB9007B7807 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = A8ACF43028E6BFB6007B7807;
+					};
+				};
+			};
+			buildConfigurationList = A8ACF42C28E6BFB6007B7807 /* Build configuration list for PBXProject "Bear In Mind" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8ACF42828E6BFB6007B7807;
+			productRefGroup = A8ACF43228E6BFB6007B7807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8ACF43028E6BFB6007B7807 /* Bear In Mind */,
+				A8ACF44028E6BFB9007B7807 /* Bear In MindTests */,
+				A8ACF44A28E6BFB9007B7807 /* Bear In MindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8ACF42F28E6BFB6007B7807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8ACF43C28E6BFB9007B7807 /* Preview Assets.xcassets in Resources */,
+				A8ACF43928E6BFB9007B7807 /* Assets.xcassets in Resources */,
+				A8ACF45F28E6C1B4007B7807 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8ACF43F28E6BFB9007B7807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8ACF44928E6BFB9007B7807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC2C545EC4B0EBA9675B69D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bear In Mind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14177EC19039033C75AB3A7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear In Mind-Bear In MindUITests/Pods-Bear In Mind-Bear In MindUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear In Mind-Bear In MindUITests/Pods-Bear In Mind-Bear In MindUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bear In Mind-Bear In MindUITests/Pods-Bear In Mind-Bear In MindUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22426047871CE568A4D4C641 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear In Mind/Pods-Bear In Mind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bear In Mind/Pods-Bear In Mind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bear In Mind/Pods-Bear In Mind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75C791F21D3DDD5FAC3F641E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bear In MindTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A548E1ACEC27820A852BC8E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bear In Mind-Bear In MindUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8ACF42D28E6BFB6007B7807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8ACF46128E6C230007B7807 /* allPage.swift in Sources */,
+				A8ACF43728E6BFB6007B7807 /* ContentView.swift in Sources */,
+				A8ACF43528E6BFB6007B7807 /* Bear_In_MindApp.swift in Sources */,
+				A8ACF46328E6C242007B7807 /* homePage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8ACF43D28E6BFB9007B7807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8ACF44628E6BFB9007B7807 /* Bear_In_MindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8ACF44728E6BFB9007B7807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8ACF45028E6BFB9007B7807 /* Bear_In_MindUITests.swift in Sources */,
+				A8ACF45228E6BFB9007B7807 /* Bear_In_MindUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8ACF44328E6BFB9007B7807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8ACF43028E6BFB6007B7807 /* Bear In Mind */;
+			targetProxy = A8ACF44228E6BFB9007B7807 /* PBXContainerItemProxy */;
+		};
+		A8ACF44D28E6BFB9007B7807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8ACF43028E6BFB6007B7807 /* Bear In Mind */;
+			targetProxy = A8ACF44C28E6BFB9007B7807 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A8ACF45328E6BFB9007B7807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8ACF45428E6BFB9007B7807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8ACF45628E6BFB9007B7807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C9D1EE43209EEA34411623 /* Pods-Bear In Mind.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bear In Mind/Preview Content\"";
+				DEVELOPMENT_TEAM = RA3U2S364M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim.Bear-In-Mind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8ACF45728E6BFB9007B7807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DEB33FC1ABBB6298907B54 /* Pods-Bear In Mind.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bear In Mind/Preview Content\"";
+				DEVELOPMENT_TEAM = RA3U2S364M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim.Bear-In-Mind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8ACF45928E6BFB9007B7807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617F82A78EC67971D2331306 /* Pods-Bear In MindTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA3U2S364M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim.Bear-In-MindTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bear In Mind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bear In Mind";
+			};
+			name = Debug;
+		};
+		A8ACF45A28E6BFB9007B7807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175725E1347C7B8BCE9C0CFD /* Pods-Bear In MindTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA3U2S364M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim.Bear-In-MindTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bear In Mind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bear In Mind";
+			};
+			name = Release;
+		};
+		A8ACF45C28E6BFB9007B7807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CDE1C1449D781DE9846E18F /* Pods-Bear In Mind-Bear In MindUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA3U2S364M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim.Bear-In-MindUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bear In Mind";
+			};
+			name = Debug;
+		};
+		A8ACF45D28E6BFB9007B7807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2466B33A158C9F9F89C3BAB6 /* Pods-Bear In Mind-Bear In MindUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RA3U2S364M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tim.Bear-In-MindUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bear In Mind";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8ACF42C28E6BFB6007B7807 /* Build configuration list for PBXProject "Bear In Mind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8ACF45328E6BFB9007B7807 /* Debug */,
+				A8ACF45428E6BFB9007B7807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8ACF45528E6BFB9007B7807 /* Build configuration list for PBXNativeTarget "Bear In Mind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8ACF45628E6BFB9007B7807 /* Debug */,
+				A8ACF45728E6BFB9007B7807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8ACF45828E6BFB9007B7807 /* Build configuration list for PBXNativeTarget "Bear In MindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8ACF45928E6BFB9007B7807 /* Debug */,
+				A8ACF45A28E6BFB9007B7807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8ACF45B28E6BFB9007B7807 /* Build configuration list for PBXNativeTarget "Bear In MindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8ACF45C28E6BFB9007B7807 /* Debug */,
+				A8ACF45D28E6BFB9007B7807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8ACF42928E6BFB6007B7807 /* Project object */;
+}
