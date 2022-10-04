@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		595FB6E5EC72BEA059753EAC /* Pods_Bear_In_MindTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E185CE477809F43A5D2A2D /* Pods_Bear_In_MindTests.framework */; };
+		A845B53328EC51AE005A2334 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A845B53228EC51AE005A2334 /* GoogleService-Info.plist */; };
 		A8ACF43528E6BFB6007B7807 /* Bear_In_MindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF43428E6BFB6007B7807 /* Bear_In_MindApp.swift */; };
 		A8ACF43728E6BFB6007B7807 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF43628E6BFB6007B7807 /* ContentView.swift */; };
 		A8ACF43928E6BFB9007B7807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8ACF43828E6BFB9007B7807 /* Assets.xcassets */; };
@@ -15,7 +16,6 @@
 		A8ACF44628E6BFB9007B7807 /* Bear_In_MindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF44528E6BFB9007B7807 /* Bear_In_MindTests.swift */; };
 		A8ACF45028E6BFB9007B7807 /* Bear_In_MindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF44F28E6BFB9007B7807 /* Bear_In_MindUITests.swift */; };
 		A8ACF45228E6BFB9007B7807 /* Bear_In_MindUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF45128E6BFB9007B7807 /* Bear_In_MindUITestsLaunchTests.swift */; };
-		A8ACF45F28E6C1B4007B7807 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8ACF45E28E6C1B3007B7807 /* GoogleService-Info.plist */; };
 		A8ACF46128E6C230007B7807 /* allPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF46028E6C230007B7807 /* allPage.swift */; };
 		A8ACF46328E6C242007B7807 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACF46228E6C242007B7807 /* homePage.swift */; };
 		B505B9667739E00A863087A4 /* Pods_Bear_In_Mind_Bear_In_MindUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAB868A5A182D6ADE794575 /* Pods_Bear_In_Mind_Bear_In_MindUITests.framework */; };
@@ -48,6 +48,7 @@
 		2CDE1C1449D781DE9846E18F /* Pods-Bear In Mind-Bear In MindUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear In Mind-Bear In MindUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bear In Mind-Bear In MindUITests/Pods-Bear In Mind-Bear In MindUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		617F82A78EC67971D2331306 /* Pods-Bear In MindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear In MindTests.debug.xcconfig"; path = "Target Support Files/Pods-Bear In MindTests/Pods-Bear In MindTests.debug.xcconfig"; sourceTree = "<group>"; };
 		83C9D1EE43209EEA34411623 /* Pods-Bear In Mind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bear In Mind.debug.xcconfig"; path = "Target Support Files/Pods-Bear In Mind/Pods-Bear In Mind.debug.xcconfig"; sourceTree = "<group>"; };
+		A845B53228EC51AE005A2334 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A8ACF43128E6BFB6007B7807 /* Bear In Mind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bear In Mind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8ACF43428E6BFB6007B7807 /* Bear_In_MindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_In_MindApp.swift; sourceTree = "<group>"; };
 		A8ACF43628E6BFB6007B7807 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		A8ACF44B28E6BFB9007B7807 /* Bear In MindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bear In MindUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8ACF44F28E6BFB9007B7807 /* Bear_In_MindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_In_MindUITests.swift; sourceTree = "<group>"; };
 		A8ACF45128E6BFB9007B7807 /* Bear_In_MindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bear_In_MindUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A8ACF45E28E6C1B3007B7807 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A8ACF46028E6C230007B7807 /* allPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allPage.swift; sourceTree = "<group>"; };
 		A8ACF46228E6C242007B7807 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
 		CEAB868A5A182D6ADE794575 /* Pods_Bear_In_Mind_Bear_In_MindUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bear_In_Mind_Bear_In_MindUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,8 +134,8 @@
 				A8ACF46028E6C230007B7807 /* allPage.swift */,
 				A8ACF46228E6C242007B7807 /* homePage.swift */,
 				A8ACF43628E6BFB6007B7807 /* ContentView.swift */,
+				A845B53228EC51AE005A2334 /* GoogleService-Info.plist */,
 				A8ACF43828E6BFB9007B7807 /* Assets.xcassets */,
-				A8ACF45E28E6C1B3007B7807 /* GoogleService-Info.plist */,
 				A8ACF43A28E6BFB9007B7807 /* Preview Content */,
 			);
 			path = "Bear In Mind";
@@ -287,7 +287,7 @@
 			files = (
 				A8ACF43C28E6BFB9007B7807 /* Preview Assets.xcassets in Resources */,
 				A8ACF43928E6BFB9007B7807 /* Assets.xcassets in Resources */,
-				A8ACF45F28E6C1B4007B7807 /* GoogleService-Info.plist in Resources */,
+				A845B53328EC51AE005A2334 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

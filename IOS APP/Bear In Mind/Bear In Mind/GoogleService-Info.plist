@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>310414498166-d9i24akqlgk5tpmejlmdkk0kc7ohqh76.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.310414498166-d9i24akqlgk5tpmejlmdkk0kc7ohqh76</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDZUgKL1hUP9qydGhN1UI2d7-wvaeZUlQA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>310414498166</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Tim.Bear-In-Mind</string>
+	<key>PROJECT_ID</key>
+	<string>iobb-43250</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iobb-43250.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:310414498166:ios:369b072b9ee4b79057c257</string>
+</dict>
+</plist>
